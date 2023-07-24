@@ -20,7 +20,7 @@ export const Header = ({}: HeaderProps) => {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Navbar.Link href="/navbars" active={true}>
+          <Navbar.Link href="/navbars" active={true} className="text-white">
             Home
           </Navbar.Link>
           <Navbar.Link href="/navbars">About</Navbar.Link>
